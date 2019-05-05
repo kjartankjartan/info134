@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Semesteroppgave Del 1.1 </title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="minCss.css">
+<script src="MinJs.js"></script>
+</head>
+<body>
+<footer id="footer">
+  <p>Dette er en oppgavebesvarelse i emnet INFO134
+  </p>
+</footer>
+
+
+<div class ="allDivs">
+
+  <div class ="div">
+    <input type="radio" id="div1" name="div-group-1" checked>
+    <label for="div1"> Introduksjon </label>
+
+    <div class ="content">
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+              Dataene kan inneholde feil.
+        </div>
+      <p> Tekst om produktet vårt står her, inneholder også lenker til SSB sine offisielle sider, og en notis om at dataene kan inneholde feil.
+    <button onclick="window.location.href = 'https://www.ssb.no/';">Klikk her</button>
+      </p>
+    </div
+  </div>
+
+<div class ="div">
+  <input type="radio" id="div2" name="div-group-1" checked>
+  <label for="div2"> Oversikt </label>
+
+   <div class ="content">
+    <p> Oversikt viser kommunene med navn, kommunenummer, og siste måling av total befolkning.
+    </p>
+    <button type="button" onclick="befolkning()">Trykk her for oversikt over kommunene</button>
+    </div
+</div>
+
+<div class ="div">
+  <input type="radio" id="div3" name="div-group-1" checked>
+  <label for="div3"> Detaljer </label>
+
+   <div class ="content">
+    <p> Når detaljer vises skal det i utgangspunktet vise ingen informasjon, men brukeren skal kunne skrive inn et kommunenummer.
+    </p>
+    </div
+</div>
+
+<div class ="div">
+  <input type="radio" id="div4" name="div-group-1" checked>
+  <label for="div4"> Sammenligning </label>
+
+   <div class ="content">
+    <p> Skal i utgangspunktet ikke vise informasjon, men brukeren kan skrive inn to gyldige kommunenummer. Skal returnere historisk data for utvikling av sysselsetting for kjønnskategoriene "Menn" og "Kvinner" i begge kommuner.
+    </p>
+    </div
+</div>
+
+</div>
+</body>
+</html>
